@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:text="Контекстное меню"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button_r"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Normal"/>
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="Bold"/>
+        <Button
+            android:id="@+id/button_i"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="Italic"/>
+        <TextView
+            android:id="@+id/label"
+            android:layout_height="wrap_content"
+            android:text="Размер текста:"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </TableRow>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Какой-то текст" />
+
+</LinearLayout>
